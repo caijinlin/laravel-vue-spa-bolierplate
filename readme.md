@@ -8,10 +8,10 @@
 </p>
 
 # Laravel Vue SPA Boilerplate
-Starter Boilerplate SPA built with Laravel 5.5, Vue 2, JWT Auth, Vue-router 3, Vuex 3 & Axios
+Starter Boilerplate SPA built with Laravel 5.6, Vue 2, JWT Auth, Vue-router 3, Vuex 3 & Axios
  
 ## Built With
-* [Laravel 5.5](https://laravel.com/docs/5.5)
+* [Laravel 5.6](https://laravel.com/docs/5.6)
 * [Vue 2](https://vuejs.org)
 * [Vue Router 3](http://router.vuejs.org)
 * [Vuex 3](http://vuex.vuejs.org)
