@@ -8,7 +8,7 @@
 </p>
 
 # Laravel Vue SPA Boilerplate
-Starter Boilerplate SPA built with Laravel 5.6, Vue 2, JWT Auth, Vue-router 3, Vuex 3 & Axios
+Starter Boilerplate SPA built with Laravel 5.6, Vue 2, Vue-router 3, Vuex 3 & Axios
  
 ## Built With
 * [Laravel 5.6](https://laravel.com/docs/5.6)
@@ -23,7 +23,6 @@ Starter Boilerplate SPA built with Laravel 5.6, Vue 2, JWT Auth, Vue-router 3, V
 * Copy `.env.example` to `.env` by running `cp .env.example .env`
 * Run `composer install --no-scripts`
 * Run `php artisan key:generate`
-* Run `php artisan jwt:secret`
 * Configure `.env`
 * Run `php artisan migrate`.
 * Run `npm install`
