@@ -11,6 +11,24 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['prefix' => 'auth', 'as' => 'auth.', 'namespace' => 'Auth'], function ($router) {
+    $router->get('/login', [
+        'as'   => 'login',
+        'uses' => 'LoginController@showLoginForm',
+    ]);
+
+    $router->post('/login', [
+        'as'   => 'login.post',
+        'uses' => 'LoginController@login',
+    ]);
+
+    $router->get('/logout', [
+        'as'   => 'logout',
+        'uses' => 'LoginController@logout',
+    ]);
 });
+
+
+Route::get('{view}', 'HomeController@index')
+    ->where('view', '(.*)')
+    ->name('index');
